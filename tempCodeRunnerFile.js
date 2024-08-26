@@ -1,3 +1,1 @@
-function multiply(a, b){
-//     return a*b;
-// }
+console.log(value(3,5)); 
