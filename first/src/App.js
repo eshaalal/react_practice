@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navbar/>
-        <Car brand="Tesla"/>
+        {/* <Car brand="Tesla"/>
         <Car brand="Toyota" />
-        <PercentageStat/>
+        <PercentageStat/> */}
       </header>
     </div>
   );
