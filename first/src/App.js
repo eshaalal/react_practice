@@ -32,6 +32,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import ThemeContext, { ThemeProvider } from './ThemeContext';
 import './App.css';
+import Stopwatch from './stopWatch';
 
 const App = () => {
   // Counter state
@@ -58,6 +59,7 @@ const App = () => {
           Switch to {theme === 'light' ? 'Dark' : 'Light'} Theme
         </button>
       </div>
+      <Stopwatch/>
     </div>
   );
 };
