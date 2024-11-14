@@ -1,0 +1,77 @@
+/* UserDetails.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .user-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .fetch-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .fetch-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .fetch-button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f8d7da;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .user-details {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #dee2e6;
+  }
+  
+  .detail-row {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px 0;
+  }
+  
+  .label {
+    font-weight: bold;
+    min-width: 80px;
+  }
+  
+  .value {
+    color: #666;
+  }
